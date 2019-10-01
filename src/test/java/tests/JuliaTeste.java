@@ -16,7 +16,7 @@ public class JuliaTeste {
 
         navegador.findElement(By.name("nomeEmpresa")).sendKeys("julia");
         navegador.findElement(By.name("fap")).sendKeys("12");
-
+        //teste commit
         navegador.findElement(By.xpath("//*[@id=\"frmcalculadora\"]/div[2]/div[3]/span/div/div[2]/b")).click();
         Thread.sleep(5000);
         navegador.findElement(By.xpath("//*[@id=\"frmcalculadora\"]/div[2]/div[3]/span/div/div[3]/div/ul/li[2]")).click();
