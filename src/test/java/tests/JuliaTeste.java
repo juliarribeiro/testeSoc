@@ -24,9 +24,17 @@ public class JuliaTeste {
         navegador.findElement(By.id("projecao")).sendKeys("350000");
         navegador.findElement(By.id("estimar")).click();
     }
+
+    @Test
+    public void Busca() throws InterruptedException {
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\rodri\\IdeaProjects\\chromedriver.exe");
+        WebDriver navegador = new ChromeDriver();
+        navegador.get("https://ww2.soc.com.br/blog/");
+
+        navegador.findElement(By.xpath("//*[@id=\"blog\"]/div/div[1]/div/form/input[3]")).sendKeys("certificação");
+        navegador.findElement(By.className("lupa-form")).click();
+    }
 }
-
-
 /*package tests;
 
         import static org.junit.Assert.*;

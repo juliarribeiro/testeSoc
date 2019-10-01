@@ -42,7 +42,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JuliaTeste.EstimarFap">
+  <component name="RunManager" selected="JUnit.JuliaTeste.Busca">
+    <configuration name="JuliaTeste2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testeJulia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.JuliaTeste2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JuliaTeste.Busca" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testeJulia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.JuliaTeste" />
+      <option name="METHOD_NAME" value="Busca" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JuliaTeste.EstimarFap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testeJulia" />
       <extension name="coverage">
@@ -77,6 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JuliaTeste.Busca" />
+        <item itemvalue="JUnit.JuliaTeste2" />
         <item itemvalue="JUnit.JuliaTeste.EstimarFap" />
         <item itemvalue="JUnit.JuliaTeste.primeiroTeste" />
       </list>
